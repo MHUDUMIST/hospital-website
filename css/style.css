@@ -13,7 +13,7 @@ a {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #ff00ea;
     color: #fff;
     border-radius: 4px;
     text-decoration: none;
@@ -21,7 +21,7 @@ a {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #00b300;
 }
 
 
@@ -75,12 +75,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #007bff;
+    color: #00ff2a;
 }
 
 /* Hero Section Styles */
 .hero {
-    background-color: #007bff; /* Set the background color to  blue */
+    background-color: #00ffdd; /* Set the background color to  blue */
     background-image: none; 
     height: 100vh;
     display: flex;
