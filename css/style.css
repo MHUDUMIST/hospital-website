@@ -162,6 +162,7 @@ nav ul li a:hover {
 .service-card h3 {
     font-size: 20px;
     margin-bottom: 10px;
+    color: rgb(0, 60, 255);
 }
 
 .service-card p {
