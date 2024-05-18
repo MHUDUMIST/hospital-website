@@ -371,3 +371,45 @@ this resizes the interface on mobile devices
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
+
+
+/*contacts page*/
+
+
+.cntus-section{
+background-color: #007bff;    
+text-align: center;
+height: 300px;
+font-family: Arial, sans-serif;
+}
+
+
+
+.contact-section{
+font-family: Arial, sans-serif;
+color: #000;
+flex-wrap: wrap;
+display: flex;
+margin: 20px;
+flex-direction: row;
+justify-content: space-around;
+width: device;
+height: 350px;
+}
+
+
+
+.loc{
+color: #007bff;
+text-align: center;
+}
+.phn{
+    color: #007bff;
+    text-align: center;
+}
+.op{
+    color: #007bff;
+    text-align: center;
+    }
+    
+
