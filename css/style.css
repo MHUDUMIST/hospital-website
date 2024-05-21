@@ -375,21 +375,29 @@ this resizes the interface on mobile devices
 
 /*contacts page*/
 
+.cnt{
+    color: #007bff;
+    font-size: 100px;
+    cursor: pointer;
+}
 
 .cntus-section{
 font-family: Arial, sans-serif;
-font-weight: 200;
 justify-content: center;
 align-items: center;
 text-align: center;
-color:black;
-padding-top: 20%;
+color: black;
+font-size: 25px;
+padding-top: 5%;
+margin-right: 50%;
+cursor: pointer;
 }
 
 
 
 .contact-section{
 font-family: Arial, sans-serif;
+font-size: 15px;
 color:black;
 flex-wrap: wrap;
 display: flex;
@@ -399,22 +407,22 @@ flex-direction: row;
 justify-content: space-around;
 width: device;
 height: 450px;
+cursor: pointer;
 }
 
 
 
 .loc{
-color: #007bff;
+color: aqua;
 text-align: center;
-text
 }
 .phn{
-    color: #007bff;
-    text-align: center;
+color: aqua;
+text-align: center;
 }
 .op{
-    color: #007bff;
-    text-align: center;
-    }
+color: aqua;
+text-align: center;
+}
     
 
