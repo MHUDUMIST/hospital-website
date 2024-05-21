@@ -377,13 +377,12 @@ this resizes the interface on mobile devices
 
 
 .cntus-section{
-background-color: #007bff;    
-height: 450px;
 font-family: Arial, sans-serif;
+font-weight: 200;
 justify-content: center;
 align-items: center;
 text-align: center;
-color: #fff;
+color:black;
 padding-top: 20%;
 }
 
@@ -391,10 +390,10 @@ padding-top: 20%;
 
 .contact-section{
 font-family: Arial, sans-serif;
-color: #000;
+color:black;
 flex-wrap: wrap;
 display: flex;
-margin: 20px;
+margin: 5px;
 padding-top: 20%;
 flex-direction: row;
 justify-content: space-around;
@@ -407,6 +406,7 @@ height: 450px;
 .loc{
 color: #007bff;
 text-align: center;
+text
 }
 .phn{
     color: #007bff;
@@ -418,10 +418,3 @@ text-align: center;
     }
     
 
-.thanks{
-    text-align: center;
-    font-family: Arial, sans-serif;
-    color: #0004fd;
-    font-style: italic;
-    font-weight: 300;
-}
