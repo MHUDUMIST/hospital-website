@@ -376,7 +376,7 @@ this resizes the interface on mobile devices
 /*contacts page*/
 
 .cnt{
-    color: #007bff;
+    color: aqua;
     font-size: 100px;
     cursor: pointer;
 }
@@ -418,11 +418,36 @@ text-align: center;
 }
 .phn{
 color: aqua;
-text-align: center;
 }
 .op{
 color: aqua;
 text-align: center;
 }
+.map{
+    display: flex;
+    flex-direction: row-reverse;
+}
     
+.emergency{
+margin-right: 25%;
+color: #ff0000;
+}
 
+.feedback{
+    background-color: #007bff;
+    color: #000;
+    height: 45px;
+    width: 140px;
+    align-content: center;
+    margin-bottom: 40px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 150%;
+    
+}
+
+.feedback:hover{
+    background-color: blue;
+    
+}
