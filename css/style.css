@@ -416,18 +416,21 @@ this resizes the interface on mobile devices
 .feedback {
   background-color: #007bff;
   color: #000;
-  height: 45px;
-  width: 140px;
+  height: 60px;
+  width: 200px;
   align-content: center;
   margin-bottom: 40px;
   border: 0;
   border-radius: 10px;
   cursor: pointer;
   margin-left: 150%;
+  font-family: Arial,sans-serif;
 }
 
 .feedback:hover {
   background-color: #007bff;
 }
+
+
 
 /* --------------------END OF CONTACT PAGE --------------------- */
