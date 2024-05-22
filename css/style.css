@@ -1,334 +1,316 @@
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
+html, body{
+  font-size: 16px;
+  box-sizing: border-box;  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #333;
+  text-decoration: none;
+  color: #333;
 }
 
 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #007bff;
+  background-color: #007bff;
 }
-
-
 
 /* Header Styles */
 header {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: sticky;
+  top: 0;
 }
 
-
-.logo{
-    display: flex;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
-    font-weight: 700;
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
 }
 
-.logo img{
-    width: 30px;
-    height: 30px;
+.logo img {
+  width: 30px;
+  height: 30px;
 }
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 nav ul li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 nav ul li:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 nav ul li a {
-    font-weight: bold;
-    transition: color 0.3s ease;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #007bff;
+  color: #007bff;
 }
 
 /* Hero Section Styles */
 .hero {
-    background-color: #007bff; /* Set the background color to  blue */
-    background-image: none; 
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
+  background-color: #007bff; /* Set the background color to blue */
+  background-image: url("../assets/images/Nurses.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
 }
 
 .hero-content {
-    max-width: 800px;
-    padding: 20px;
+  max-width: 800px;
+  padding: 20px;
 }
 
 .hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-size: 3rem;
 }
 
-.hero a{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #000;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+.hero a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
-.hero a:hover{
-    background-color: #fff;
-    color: #007bff;
-    outline: 1px solid #007bff;
+.hero a:hover {
+  background-color: #fff;
+  color: #007bff;
+  outline: 1px solid #007bff;
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 /* ----------------------------------------------- */
 
-
-
-
-
-
-
 /* Services Section Styles */
 .services {
-    max-width: 1200px;
-    margin: 60px auto;
-    padding: 0 20px;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
 }
 
 .services h2 {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .service-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
 }
 
 .service-card {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .service-card img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .service-card h3 {
-    font-size: 20px;
-    margin-bottom: 40px;
-    
-    color: rgb(17, 17, 17);
+  font-size: 20px;
+  margin-bottom: 40px;
+
+  color: rgb(17, 17, 17);
 }
 
 .service-card p {
-    font-size: 16px;
-    margin-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 /* Doctors Section Styles */
 .doctors {
-    max-width: 1200px;
-    margin: 60px auto;
-    padding: 0 20px;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
 }
 
 .doctors h2 {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .doctor-profiles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
 }
 
 .doctor-profile {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .doctor-profile img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .doctor-profile h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .doctor-profile p {
-    font-size: 16px;
-    margin-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
-
-
 
 /* Appointment Form Styles */
 .appointments {
-    max-width: 1200px;
-    margin: 60px auto;
-    padding: 0 20px;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
 }
 
 .appointments h2 {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .appointment-form {
-    max-width: 600px;
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .form-group input,
 .form-group textarea,
 .form-group select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .form-group textarea {
-    height: 120px;
+  height: 120px;
 }
-
-
-
-
-
-
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
 }
 
 .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
 }
 
 .footer-section h3 {
-    font-size: 18px;
-    margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .footer-section ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-section ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-section ul li a {
-    color: #fff;
-    transition: color 0.3s ease;
+  color: #fff;
+  transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-    color: #007bff;
+  color: #007bff;
 }
 
 .social-media {
-    display: flex;
+  display: flex;
 }
 /* Targeting SVG icons inside the social media links */
 .social-media a {
-    display: inline-block;
-    margin-right: 10px; 
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .social-media a img {
-    width: 30px; 
-    height: auto;
-    fill: #ccc !important; 
+  width: 30px;
+  height: auto;
+  fill: #ccc !important;
 }
 
 /* Change the color on hover */
 .social-media a:hover img {
-    fill: #ff0000 !important; /* Change to your desired color */
+  fill: #ff0000 !important; /* Change to your desired color */
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Responsive Styles
 
@@ -337,91 +319,115 @@ this resizes the interface on mobile devices
 
 */
 @media (max-width: 768px) {
-    .header-container {
-        flex-direction: column;
-        align-items: flex-start;
-        height: 25px;
-        overflow: hidden;
-    }
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 25px;
+    overflow: hidden;
+  }
 
-    nav ul {
-        margin-top: 20px;
-        flex-direction: column;
-    }
+  nav ul {
+    margin-top: 20px;
+    flex-direction: column;
+  }
 
-    nav ul li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 
-    .hero {
-        height: 400px;
-    }
+  .hero {
+    height: 400px;
+  }
 
-    .hero h1 {
-        font-size: 28px;
-    }
+  .hero h1 {
+    font-size: 28px;
+  }
 
-    .hero p {
-        font-size: 16px;
-    }
+  .hero p {
+    font-size: 16px;
+  }
 
-    .service-cards,
-    .doctor-profiles {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
-}
-
-
-/*contacts page*/
-
-
-.cntus-section{
-background-color: #007bff;    
-height: 450px;
-font-family: Arial, sans-serif;
-justify-content: center;
-align-items: center;
-text-align: center;
-color: #fff;
-padding-top: 20%;
+  .service-cards,
+  .doctor-profiles {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 
 
 
-.contact-section{
-font-family: Arial, sans-serif;
-color: #000;
-flex-wrap: wrap;
-display: flex;
-margin: 20px;
-padding-top: 20%;
-flex-direction: row;
-justify-content: space-around;
-width: device;
-height: 450px;
+
+/*-------------------------CONTACTS PAGE--------------------------*/
+
+.cnt {
+  color: #007bff;
+  font-size: 100px;
+  cursor: pointer;
 }
 
-
-
-.loc{
-color: #007bff;
-text-align: center;
+.cntus-section {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  padding-top: 5%;
+  margin-right: 50%;
+  cursor: pointer;
 }
-.phn{
-    color: #007bff;
-    text-align: center;
-}
-.op{
-    color: #007bff;
-    text-align: center;
-    }
-    
 
-.thanks{
-    text-align: center;
-    font-family: Arial, sans-serif;
-    color: #0004fd;
-    font-style: italic;
-    font-weight: 300;
+.contact-section {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  flex-wrap: wrap;
+  display: flex;
+  margin: 5px;
+  padding-top: 20%;
+  flex-direction: row;
+  justify-content: space-around;
+  width: device;
+  height: 450px;
+  cursor: pointer;
 }
+
+.loc {
+  color: #007bff;
+  text-align: center;
+}
+.phn {
+  color: #007bff;
+}
+.op {
+  color: #007bff;
+  text-align: center;
+}
+.map {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.emergency {
+  margin-right: 25%;
+  color: #ff0000;
+}
+
+.feedback {
+  background-color: #007bff;
+  color: #000;
+  height: 45px;
+  width: 140px;
+  align-content: center;
+  margin-bottom: 40px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 150%;
+}
+
+.feedback:hover {
+  background-color: #007bff;
+}
+
+/* --------------------END OF CONTACT PAGE --------------------- */
