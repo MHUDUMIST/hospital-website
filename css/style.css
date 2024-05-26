@@ -1,9 +1,10 @@
 /* General Styles */
 
 /* Setting up base styles for html and body elements */
-html, body{
+html,
+body {
   font-size: 16px;
-  box-sizing: border-box;  
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -101,7 +102,8 @@ nav ul li a:hover {
 
 /*-------------------- HERO SECTION STYLES -------------*/
 .hero {
-  background-color: #007bff; /* Set the background color to blue */
+  background-color: #007bff;
+  /* Set the background color to blue */
   background-image: url("../assets/images/Nurses.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,7 +128,7 @@ nav ul li a:hover {
   font-size: 3rem;
 }
 
-.hero p{
+.hero p {
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
@@ -153,6 +155,7 @@ nav ul li a:hover {
   font-size: 18px;
   margin-bottom: 30px;
 }
+
 /* ------------------END OF HERO SECTION----------------------------- */
 
 
@@ -203,6 +206,7 @@ nav ul li a:hover {
   font-size: 16px;
   margin-bottom: 20px;
 }
+
 .thanks {
   font-size: 20px;
   color: #0a5cf5;
@@ -260,11 +264,12 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-.doctors .more{
+.doctors .more {
   display: flex;
   justify-content: center;
   margin: 10px;
 }
+
 /*-------------------END OF DOCTORS SECTION------------------------*/
 
 
@@ -357,6 +362,7 @@ footer {
 .social-media {
   display: flex;
 }
+
 /* Targeting SVG icons inside the social media links */
 .social-media a {
   display: inline-block;
@@ -371,7 +377,8 @@ footer {
 
 /* Change the color on hover */
 .social-media a:hover img {
-  fill: #ff0000 !important; /* Change to your desired color */
+  fill: #ff0000 !important;
+  /* Change to your desired color */
 }
 
 /*-------------------END OF FOOTER SECTION------------------------*/
@@ -465,13 +472,16 @@ this resizes the interface on mobile devices
   color: #007bff;
   text-align: center;
 }
+
 .phn {
   color: #007bff;
 }
+
 .op {
   color: #007bff;
   text-align: center;
 }
+
 .map {
   display: flex;
   flex-direction: row-reverse;
@@ -493,7 +503,7 @@ this resizes the interface on mobile devices
   border-radius: 10px;
   cursor: pointer;
   margin-left: 150%;
-  font-family: Arial,sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .feedback:hover {
@@ -501,3 +511,28 @@ this resizes the interface on mobile devices
 }
 
 /* --------------------END OF CONTACT PAGE --------------------- */
+
+
+
+/* -----------about page------------- */
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about p {
+  line-height: 1.5;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 20px;
+}
+
+.about img {
+  max-width: 200px;
+
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
