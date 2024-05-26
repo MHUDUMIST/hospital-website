@@ -37,6 +37,7 @@ a {
 
 /* Styling for header element */
 header {
+  background-color: #fff;
   position: sticky;
   top: 0;
 }
@@ -435,25 +436,24 @@ this resizes the interface on mobile devices
 
 /*-------------------------CONTACTS PAGE--------------------------*/
 
-.cnt {
+.contact-title {
   color: #007bff;
-  font-size: 100px;
+  font-size: 3.2rem;
   cursor: pointer;
 }
 
-.cntus-section {
+.contact-us-section {
   font-family: Arial, sans-serif;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: black;
-  font-size: 30px;
-  padding-top: 5%;
-  margin-right: 50%;
+  font-size: 20px;
+  padding: 5%;
   cursor: pointer;
 }
 
-.contact-section {
+.contact-details-section {
   font-family: Arial, sans-serif;
   font-size: 15px;
   color: black;
@@ -461,53 +461,66 @@ this resizes the interface on mobile devices
   display: flex;
   margin: 5px;
   padding-top: 20%;
+  padding-bottom: 20%;
   flex-direction: row;
   justify-content: space-around;
-  width: device;
-  height: 450px;
+  width: 100%;
   cursor: pointer;
 }
 
-.loc {
-  color: #007bff;
-  text-align: center;
+.contact-header{
+  background: transparent;
 }
 
+.location-info {
+  color: #007bff;
+  text-align: left;
+}
 .phn {
   color: #007bff;
 }
-
 .op {
   color: #007bff;
-  text-align: center;
 }
-
 .map {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
 }
 
-.emergency {
-  margin-right: 25%;
+.map-section iframe{
+  height: 400px;
+  width: 70%;
+}
+
+.emergency-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #ff0000;
 }
 
-.feedback {
+.feedback{
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-button {
   background-color: #007bff;
   color: #000;
-  height: 60px;
   width: 200px;
+  padding: 10px;
   align-content: center;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 0;
   border-radius: 10px;
   cursor: pointer;
   margin-left: 150%;
-  font-family: Arial, sans-serif;
+  font-family: Arial,sans-serif;
 }
 
-.feedback:hover {
-  background-color: blue;
+.feedback-button:hover {
+  transform: scale(0.9);
 }
 
 /* --------------------END OF CONTACT PAGE --------------------- */
