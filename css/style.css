@@ -1,5 +1,6 @@
 /* General Styles */
 
+/* Setting up base styles for html and body elements */
 html, body{
   font-size: 16px;
   box-sizing: border-box;  
@@ -8,11 +9,13 @@ html, body{
   padding: 0;
 }
 
+/* Styling for all anchor tags */
 a {
   text-decoration: none;
   color: #333;
 }
 
+/* Styling for button class */
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -23,17 +26,21 @@ a {
   transition: background-color 0.3s ease;
 }
 
+/* Styling for button hover state */
 .btn:hover {
   background-color: #007bff;
 }
 
-/* Header Styles */
+/* HEADER STYLES */
+
+/* Styling for header element */
 header {
   background-color: #fff;
   position: sticky;
   top: 0;
 }
 
+/* Styling for logo class */
 .logo {
   display: flex;
   align-items: center;
@@ -42,10 +49,13 @@ header {
   font-weight: 700;
 }
 
+/* Styling for image within logo class */
 .logo img {
   width: 30px;
   height: 30px;
 }
+
+/* Styling for header container class */
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -55,6 +65,7 @@ header {
   padding: 10px 20px;
 }
 
+/* Styling for unordered list within nav element */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -62,24 +73,33 @@ nav ul {
   display: flex;
 }
 
+/* Styling for list items within unordered list in nav element */
 nav ul li {
   margin-right: 20px;
 }
 
+/* Styling for the last list item within unordered list in nav element */
 nav ul li:last-child {
   margin-right: 0;
 }
 
+/* Styling for anchor tags within list items in nav element */
 nav ul li a {
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
+/* Styling for hover state of anchor tags within list items in nav element */
 nav ul li a:hover {
   color: #007bff;
 }
 
-/* Hero Section Styles */
+
+
+
+
+
+/*-------------------- HERO SECTION STYLES -------------*/
 .hero {
   background-color: #007bff; /* Set the background color to blue */
   background-image: url("../assets/images/Nurses.jpeg");
@@ -106,28 +126,41 @@ nav ul li a:hover {
   font-size: 3rem;
 }
 
+.hero p{
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+/* Styling for anchor tags within the hero section */
 .hero a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #fff;
-  color: #000;
+  background-color: #007bff;
+  color: #ddd;
   border-radius: 4px;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
+
+/* Styling for hover state of anchor tags within the hero section */
 .hero a:hover {
   background-color: #fff;
   color: #007bff;
   outline: 1px solid #007bff;
 }
 
+/* Styling for paragraph tags within the hero section */
 .hero p {
   font-size: 18px;
   margin-bottom: 30px;
 }
-/* ----------------------------------------------- */
+/* ------------------END OF HERO SECTION----------------------------- */
 
-/* Services Section Styles */
+
+
+
+/*-------------------SERVICES SECTION STYLES------------------------*/
+
+
 .services {
   max-width: 1200px;
   margin: 60px auto;
@@ -176,7 +209,14 @@ nav ul li a:hover {
   text-align: center;
 }
 
-/* Doctors Section Styles */
+/*-------------------END OF SERVICES SECTION------------------------*/
+
+
+
+
+
+/* -------------------DOCTORS SECTION STYLES------------------------ */
+
 .doctors {
   max-width: 1200px;
   margin: 60px auto;
@@ -204,8 +244,10 @@ nav ul li a:hover {
 
 .doctor-profile img {
   max-width: 100%;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
   height: auto;
-  margin-bottom: 20px;
 }
 
 .doctor-profile h3 {
@@ -218,7 +260,12 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-/* Appointment Form Styles */
+/*-------------------END OF DOCTORS SECTION------------------------*/
+
+
+
+/*-------------------APPOINTMENTS SECTION STYLES------------------------*/
+
 .appointments {
   max-width: 1200px;
   margin: 60px auto;
@@ -258,7 +305,12 @@ nav ul li a:hover {
   height: 120px;
 }
 
-/* Footer Styles */
+/*-------------------END OF APPOINTMENTS SECTION------------------------*/
+
+
+
+
+/*-------------------FOOTER SECTION STYLES------------------------*/
 footer {
   background-color: #333;
   color: #fff;
@@ -317,7 +369,13 @@ footer {
   fill: #ff0000 !important; /* Change to your desired color */
 }
 
-/* Responsive Styles
+/*-------------------END OF FOOTER SECTION------------------------*/
+
+
+
+
+/* 
+RESPONSIVE STYLES
 
 this resizes the interface on mobile devices
 
@@ -358,6 +416,7 @@ this resizes the interface on mobile devices
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
+
 
 
 
@@ -435,9 +494,5 @@ this resizes the interface on mobile devices
 .feedback:hover {
   background-color: blue;
 }
-
-
-
-
 
 /* --------------------END OF CONTACT PAGE --------------------- */
