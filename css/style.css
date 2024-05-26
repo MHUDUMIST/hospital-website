@@ -170,6 +170,11 @@ nav ul li a:hover {
   font-size: 16px;
   margin-bottom: 20px;
 }
+.thanks {
+  font-size: 20px;
+  color: #0a5cf5;
+  text-align: center;
+}
 
 /* Doctors Section Styles */
 .doctors {
