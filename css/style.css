@@ -376,7 +376,7 @@ this resizes the interface on mobile devices
   align-items: center;
   text-align: center;
   color: black;
-  font-size: 25px;
+  font-size: 30px;
   padding-top: 5%;
   margin-right: 50%;
   cursor: pointer;
@@ -433,8 +433,10 @@ this resizes the interface on mobile devices
 }
 
 .feedback:hover {
-  background-color: #007bff;
+  background-color: blue;
 }
+
+
 
 
 
