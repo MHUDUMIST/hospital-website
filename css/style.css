@@ -483,13 +483,13 @@ this resizes the interface on mobile devices
   color: #007bff;
   text-align: left;
 }
-.phn {
+.phone-info {
   color: #007bff;
 }
-.op {
+.operating-hours {
   color: #007bff;
 }
-.map {
+.map-section{
   display: flex;
   justify-content: center;
 }
